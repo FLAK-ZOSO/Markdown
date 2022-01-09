@@ -58,5 +58,5 @@ p {
 
 .underlined {
     font-family: var(--font);
-    text-decoration: red;
+    text-decoration: underline solid coral;
 }
