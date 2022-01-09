@@ -1,19 +1,22 @@
 #!\usr\bin\env Python3
+import os 
+dir_path = os.path.dirname(os.path.realpath(__file__))
 
 start = '<!DOCTYPE html><html><head>'
-css = '<link rel="stylesheet" href="classes.css">'
+css = f'<link rel="stylesheet" href="{dir_path}\classes.css">'
 body = '</head><body style="background-color: black"><p>'
-js = '<script type="text/javascript" src="classes.js"></script>'
+js = f'<script type="text/javascript" src="{dir_path}\classes.js"></script>'
 end = f'</p>{js}</body></html>'
 
 characters = [
     '***',
     '**',
-    '%',
+    '£',
     '*',
     '|',
     '_',
-    '/'
+    '/$',
+    '/%'
 ]
 
 snippets = [
@@ -21,8 +24,9 @@ snippets = [
     '<code class="bold">',
     '<code class="code">',
     '<code class="italic">',
-    '<code class="spoiler">',
+    '<button class="spoiler">',
     '<code class="underlined">',
+    '</button>',
     '</code>'
 ]
 
