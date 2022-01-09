@@ -16,7 +16,8 @@ characters = [
     '|',
     '_',
     '/$',
-    '/%'
+    '/%',
+    '\n'
 ]
 
 snippets = [
@@ -27,7 +28,8 @@ snippets = [
     '<button class="spoiler">',
     '<code class="underlined">',
     '</button>',
-    '</code>'
+    '</code>',
+    '<br>'
 ]
 
 associator = dict(zip(characters, snippets))

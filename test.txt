@@ -1,1 +1,6 @@
-This word is _underlined/%, this one is ***BIG/%, while this one is *italic/%. Here we got some !$code/%. Under this there is a |spoiler/$
+This word is _underlined/%. 
+This one is ***BIG/% 
+while this one is *italic/%. 
+Here we got some !$code/%. 
+Under this there is a |spoiler/$ 
+You can find a **bold/% word here.
