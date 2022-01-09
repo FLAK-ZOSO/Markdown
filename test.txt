@@ -1,6 +1,6 @@
-This word is _underlined_. 
 This one is ***BIG***
-while this one is *italic*. 
-Here we got some $code$. 
+You can find a **bold** word here
+Here we got some $code$
+This one is *italic*
 Under this there is a ||spoiler||
-You can find a **bold** word here.
+This word is _underlined_
