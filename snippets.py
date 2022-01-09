@@ -29,7 +29,7 @@ snippets = [
     '<code class="underlined">',
     '</button>',
     '</code>',
-    '<br>'
+    '<br><br>'
 ]
 
 associator = dict(zip(characters, snippets))

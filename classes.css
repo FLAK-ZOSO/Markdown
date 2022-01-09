@@ -17,7 +17,7 @@ p {
     color: red;
     font-family: var(--font);
     font-size: inherit;
-    padding: 2px;
+    padding: 1px;
 }
 .spoiler:hover {
     background-color: black;
@@ -30,6 +30,8 @@ p {
     color: red;
     font-family: var(--font);
     font-size: medium;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 2px;
     padding-right: 2px;
 }
