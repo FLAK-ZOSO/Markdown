@@ -21,7 +21,7 @@ def main(path: str) -> None:
     for i in s.characters:
         txt = txt.replace(i, s.associator[i])
     
-    _writeText(f'{path}.html', txt)
+    _writeText(path, txt)
 
 
 if (__name__ == '__main__'):
