@@ -19,7 +19,10 @@ def main(path: str) -> None:
     txt = _getText(path)
 
     for i in s.characters:
-        txt = txt.replace(i, s.associator[i])
+        for _ in range(txt.count(i)//2):
+            txt = txt.replace(i, s.opener[i], 1)
+            txt = txt.replace(i, s.closer[i], 1)
+    txt = txt.replace('\n', '<br><br>')
     
     _writeText(path, txt)
 

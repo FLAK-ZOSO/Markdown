@@ -11,25 +11,29 @@ end = f'</p>{js}</body></html>'
 characters = [
     '***',
     '**',
-    '!$',
+    '$',
     '*',
-    '|',
+    '||',
     '_',
-    '/$',
-    '/%',
-    '\n'
 ]
 
-snippets = [
+opening = [
     '<code class="big">',
     '<code class="bold">',
     '<code class="code">',
     '<code class="italic">',
     '<button class="spoiler">',
     '<code class="underlined">',
-    '</button>',
-    '</code>',
-    '<br><br>'
 ]
 
-associator = dict(zip(characters, snippets))
+closing = [
+    '</code>',
+    '</code>',
+    '</code>',
+    '</code>',
+    '</button>',
+    '</code>',
+]
+
+opener = dict(zip(characters, opening))
+closer = dict(zip(characters, closing))
