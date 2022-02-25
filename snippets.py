@@ -1,4 +1,4 @@
-#!\usr\bin\env Python3
+#!/usr/bin/python3
 import os 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -15,6 +15,7 @@ characters = [
     '*',
     '||',
     '_',
+    ']['
 ]
 
 opening = [
@@ -24,6 +25,7 @@ opening = [
     '<code class="italic">',
     '<button class="spoiler">',
     '<code class="underlined">',
+    '<button class="spoiler">'
 ]
 
 closing = [
@@ -33,6 +35,7 @@ closing = [
     '</code>',
     '</button>',
     '</code>',
+    '</button>'
 ]
 
 opener = dict(zip(characters, opening))

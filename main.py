@@ -1,4 +1,4 @@
-#!\usr\bin\env Python3
+#!/usr/bin/python3
 import snippets as s
 import sys
 
@@ -28,8 +28,7 @@ def main(path: str) -> None:
 
 
 if (__name__ == '__main__'):
-    # D:\Python\Python\Markdown\test.txt
     if (len(sys.argv) >= 2):
         main(sys.argv[1])
     else:
-        main(r'D:\Python\Python\Markdown\test.txt')
+        main('test.txt')
