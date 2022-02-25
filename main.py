@@ -22,7 +22,7 @@ def main(path: str) -> None:
         for _ in range(txt.count(i)//2):
             txt = txt.replace(i, s.opener[i], 1)
             txt = txt.replace(i, s.closer[i], 1)
-    txt = txt.replace('\n', '<br><br>')
+    txt = txt.replace('\n', '<br><br>\n\t\t\t')
     
     _writeText(path, txt)
 
