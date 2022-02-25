@@ -4,3 +4,4 @@ Here we got some $code$
 This one is *italic*
 Under this there is a ||spoiler||
 This word is _underlined_
+This one is a ][Button][

@@ -10,7 +10,7 @@ p {
 }
 
 
-.spoiler {
+button.spoiler {
     background-color: red;
     border-radius: 5px;
     border-style: none;
@@ -19,11 +19,11 @@ p {
     font-size: inherit;
     padding: 1px;
 }
-.spoiler:hover {
+button.spoiler:hover {
     background-color: black;
     font-family: var(--font);
 }
-.after-spoiler {
+button.after-spoiler {
     background-color: rgb(42, 42, 42);
     border-radius: 5px;
     border-style: none;
@@ -56,6 +56,14 @@ p {
 .italic {
     font-family: var(--font);
     font-style: italic;
+}
+
+.keyboard {
+    background-color: rgb(42, 42, 42);
+    border-radius: 5px;
+    color: red;
+    font-family: var(--font);
+    padding-bottom: 2px;
 }
 
 .underlined {

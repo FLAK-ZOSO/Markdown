@@ -25,7 +25,7 @@ opening = [
     '<code class="italic">',
     '<button class="spoiler">',
     '<code class="underlined">',
-    '<button class="spoiler">'
+    '<button class="keyboard">'
 ]
 
 closing = [
