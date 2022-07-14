@@ -1,2 +1,2 @@
-# Markdown
+# Markdown [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/FLAK-ZOSO/Markdown.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/FLAK-ZOSO/Markdown/context:javascript) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/FLAK-ZOSO/Markdown.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/FLAK-ZOSO/Markdown/context:python)
 A Python program that compiles text files into html with styling
